@@ -30,6 +30,7 @@ public class TCPServer {
 
     public  String getName() {
         try{
+            System.out.println("connecting the App...");
             Socket sock = server.accept();
             System.out.println("connected from " + sock.getRemoteSocketAddress()); //connect socket
 
@@ -38,6 +39,21 @@ public class TCPServer {
             String name = in.readLine();
 
             return name;
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void sendPrivateKey(PrivateKey s){
+        try{
+            System.out.println("Ready to send s to the App...");
+            Socket sock = server.accept();
+            System.out.println("connected from " + sock.getRemoteSocketAddress()); //connect socket
+
+            PrintWriter out = new PrintWriter(sock.getOutputStream(),true);
+
+            out.println(s.toString());
+
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

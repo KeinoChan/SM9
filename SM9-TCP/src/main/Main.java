@@ -27,6 +27,8 @@ public class Main {
             Main.showMsg("User's private key for signature 'ds_A':");
             Main.showMsg(s.toString());
 
+            server.sendPrivateKey(s); //send s
+
             Main.showMsg("Some values during the signature");
             String msg = "Chinese IBS standard";
             Main.showMsg("Message to be signed 'M':");
