@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">InteractiveButton</string>
+    <string name="edit_message">input user name</string>
+</resources>
