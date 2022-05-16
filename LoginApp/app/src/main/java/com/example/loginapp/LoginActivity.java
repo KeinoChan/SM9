@@ -51,7 +51,7 @@ public class LoginActivity extends AppCompatActivity {
                         //Intent intent = new Intent(getApplicationContext(),HomeActivity.class);
                         //startActivity(intent);
 
-                        System.out.println("This sentence is printed when the button is clicked");
+                        System.out.println("登录按钮This sentence is printed when the button is clicked");
                         Socket client = null;
                         Socket client1 = null;
                         try{

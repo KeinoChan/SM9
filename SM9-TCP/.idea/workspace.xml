@@ -5,53 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dde1334-0e9d-48aa-9806-f8ec493dcdc5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/app/src/androidTest/java/com/example/interactivebutton/ExampleInstrumentedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/app/src/main/java/com/example/interactivebutton/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/app/src/main/res/values-night/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/app/src/main/res/values/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/app/src/test/java/com/example/interactivebutton/ExampleUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InteractiveButton/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApp/.gradle/7.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/.gradle/7.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApp/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApp/.gradle/7.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/.gradle/7.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApp/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApp/.gradle/7.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/.gradle/7.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApp/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApp/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApp/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApp/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApp/.idea/modules/app/LoginApp.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/.idea/modules/app/LoginApp.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApp/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApp/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApp/app/src/main/java/com/example/loginapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/app/src/main/java/com/example/loginapp/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApp/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApp/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApp/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/SM9/PrivateKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/SM9/PrivateKey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/SM9/TCPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/SM9/TCPServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/SM9/PrivateKey.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/SM9/PrivateKey.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/SM9/TCPServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/SM9/TCPServer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +59,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "last_opened_file_path": "E:/Java/SM9-/SM9-TCP",
+    "last_opened_file_path": "E:/Java/SM9/SM9-TCP",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
