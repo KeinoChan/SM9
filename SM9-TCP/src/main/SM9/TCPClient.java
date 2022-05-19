@@ -17,20 +17,14 @@ import java.io.*;
  */
 
 public class TCPClient {
-    SM9Curve mCurve = new SM9Curve();
-    Paillier paillier = new Paillier();
-    public TCPClient(SM9Curve mCurve, Paillier paillier){
-        this.mCurve = mCurve;
-        this.paillier = paillier;
-    }
-
-
 
     public static void main(String[] args) throws Exception{
 
         SM9Curve mCurve = new SM9Curve();
         Paillier paillier = new Paillier();
         BigInteger s2 = SM9Utils.genRandom(mCurve.random, mCurve.N); //generate s2
+
+        //System.out.println("乱码...N in Client:"+mCurve.N);
 
         Socket sock = new Socket("127.0.0.1", 6666);
         System.out.println("Connected");
@@ -72,6 +66,15 @@ public class TCPClient {
         //send Q2
         out.println(Hex.encodeToString(SM9Utils.G1ElementToBytes(Q2),true));//send Q2(ds) to server
         //System.out.println("Q2 in client: "+Q2);
+
+
+        //System.out.println("c0:"+c0);
+        //System.out.println("E(c0):"+paillier.Encryption(c0));
+
+        out.println(s2);
+
+        sock.close();
+
 
     }
 

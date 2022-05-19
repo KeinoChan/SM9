@@ -30,6 +30,7 @@ public class TCPServer {
     Socket appSock;
 
     ServerSocket clientServer = new ServerSocket(6666);//Client Server Socket
+    Socket clientSock;
 
 
     public  String getName() {
@@ -65,13 +66,25 @@ public class TCPServer {
         }
     }
 
+
+    public BigInteger gets2(){
+        try{
+            BufferedReader in = new BufferedReader(new InputStreamReader(clientSock.getInputStream()));
+            BigInteger s2 = new BigInteger(in.readLine(),10);
+
+            return s2;
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
     public PrivateKey genSignPrivateKey(String id){
         try{
             //ServerSocket server = new ServerSocket(6666);
             System.out.println("PKG1 Server started");
             System.out.println("Waiting for PKG2 connection ...");
 
-            Socket clientSock = clientServer.accept();
+            clientSock = clientServer.accept();
 
             System.out.println("connected from " + clientSock.getRemoteSocketAddress()); //connect socket
 
@@ -112,6 +125,13 @@ public class TCPServer {
             CurveElement Q2 = mCurve.G1.newElement();
             Q2.setFromBytes(Hex.decode(in.readLine()));
             //Main.showMsg("Q2 in server: "+ Q2);
+
+
+
+            //System.out.println("c0:"+c0);
+            //System.out.println("E(c0):"+paillier.Encryption(c0));
+
+
 
             return new PrivateKey(Q2);
 

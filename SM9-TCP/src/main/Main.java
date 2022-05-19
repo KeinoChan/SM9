@@ -6,6 +6,8 @@ import main.SM9.EllipticCurve.SM9Curve;
 import main.SM9.Utils.SM9Utils;
 
 import java.math.BigInteger;
+import java.util.Currency;
+
 
 public class Main {
 
@@ -24,6 +26,30 @@ public class Main {
 
         server.sendPrivateKey(s); //send s
 
+
+        //验签
+        SM9 sm9 = new SM9(mCurve);
+        BigInteger s1 = server.s1;
+        BigInteger s2 = server.gets2();
+
+        BigInteger ks = (s1.add(s2)).mod(mCurve.N);
+        BigInteger h1 = SM9Utils.H1(name,mCurve.N);
+        BigInteger t1 = h1.add(ks);
+
+        BigInteger t2 = ks.multiply(t1.modInverse(mCurve.N)).mod(mCurve.N);
+        PrivateKey ds = new PrivateKey(mCurve.P1.duplicate().mul(t2));
+        //生成主公钥
+        CurveElement ppubs = mCurve.P2.duplicate().mul(ks);
+        MasterPublicKey pubkey = new MasterPublicKey(ppubs);
+
+        //此处应显示签名
+        String msg = "Chinese";
+        ResultSignature signature = sm9.sign(pubkey,s,msg.getBytes());
+
+        if(sm9.verify(pubkey,name,msg.getBytes(),signature))
+            System.out.println("verify success");
+        else
+            System.out.println("verify failed");
 
     }
 

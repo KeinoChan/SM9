@@ -26,7 +26,7 @@ public class Paillier {
      * p and q are two large primes. lambda = lcm(p-1, q-1) =
      * (p-1)*(q-1)/gcd(p-1, q-1).
      */
-    private BigInteger p, q, lambda;
+    public BigInteger p, q, lambda;
     /**
      * n = p*q, where p and q are two large primes.
      */
@@ -84,8 +84,16 @@ public class Paillier {
          * Constructs two randomly generated positive BigIntegers that are
          * probably prime, with the specified bitLength and certainty.
          */
-        p = new BigInteger(bitLength / 2, certainty, new Random());
-        q = new BigInteger(bitLength / 2, certainty, new Random());
+        //p = new BigInteger(bitLength / 2, certainty, new Random());
+        //System.out.println("乱码...p in Paillier:"+p.toString(16).toUpperCase());
+        p = new BigInteger("92D3633EE641B031D99D6031C22C9F296EC46D38A938717A06" +
+                "FF1C68BE3CCE8267B2797E2C0DA015AB612353A9F62E263DC76EE0D0D94FA3B5F22E4C3780EB0D",16);
+
+        //q = new BigInteger(bitLength / 2, certainty, new Random());
+        //System.out.println("乱码...q in Paillier:"+q.toString(16).toUpperCase());
+        q = new BigInteger("E8FA3A7A48D8CD84DEEA7F1283323852B5D6E7FCAD6C239B8B6" +
+                "8EB9E05B53CA83D8B3E957FA5B0FCF4A8AB30D4A307157EDB0D4622CAB58A1022CE4AAAA685EF",16);
+
 
         n = p.multiply(q);
         nsquare = n.multiply(n);
@@ -123,9 +131,12 @@ public class Paillier {
      * @return ciphertext as a BigInteger
      */
     public BigInteger Encryption(BigInteger m) {
-        BigInteger r = new BigInteger(bitLength, new Random());
+        //BigInteger r = new BigInteger(bitLength, new Random());
+        BigInteger r = new BigInteger("2F85019A19848BA09772FEA2B8F52E2831C59F27FB1A4E106F60C1191" +
+                "86E935897FC583C4A66F1A23950D61159E6B6EC55D34E7518EE2D22CB228CA85E546D1B0A4FB13F4BDE" +
+                "4DD01FDF561ED24965098699C219D824D3F47A469DE87C5FF8D98D2B72C531BFA435D006895CD78146A" +
+                "3DA5F39AFFCEABE8E662FBD6EE1F2E0BA",16);
 
-        System.out.println("乱码：r in Paillier Encryption:"+r);
         return g.modPow(m, nsquare).multiply(r.modPow(n, nsquare)).mod(nsquare);
 
     }
