@@ -24,7 +24,7 @@ public class TCPClient {
         Paillier paillier = new Paillier();
         BigInteger s2 = SM9Utils.genRandom(mCurve.random, mCurve.N); //generate s2
 
-        Socket sock = new Socket("127.0.0.1", 6666);
+        Socket sock = new Socket("192.168.1.109", 6666);
         System.out.println("Connected");
         BufferedReader in = new BufferedReader(new InputStreamReader(sock.getInputStream()));
         PrintWriter out = new PrintWriter(sock.getOutputStream(), true);
