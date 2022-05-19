@@ -26,15 +26,19 @@ public class TCPServer {
     }
     public final BigInteger s1 = SM9Utils.genRandom(mCurve.random, mCurve.N); //generate s1
 
-    ServerSocket server = new ServerSocket(6666);
+    ServerSocket appServer = new ServerSocket(6623);//App Server Socket
+    Socket appSock;
+
+    ServerSocket clientServer = new ServerSocket(6666);//Client Server Socket
+
 
     public  String getName() {
         try{
             System.out.println("connecting the App...");
-            Socket sock = server.accept();
-            System.out.println("connected from " + sock.getRemoteSocketAddress()); //connect socket
+            appSock = appServer.accept();
+            System.out.println("connected from " + appSock.getRemoteSocketAddress()); //connect socket
 
-            BufferedReader in = new BufferedReader(new InputStreamReader(sock.getInputStream()));
+            BufferedReader in = new BufferedReader(new InputStreamReader(appSock.getInputStream()));
 
             String name = in.readLine();
 
@@ -47,12 +51,14 @@ public class TCPServer {
     public void sendPrivateKey(PrivateKey s){
         try{
             System.out.println("Ready to send s to the App...");
-            Socket sock = server.accept();
-            System.out.println("connected from " + sock.getRemoteSocketAddress()); //connect socket
+            //Socket appSock = appServer.accept();
+            //System.out.println("connected from " + sock.getRemoteSocketAddress()); //connect socket
 
-            PrintWriter out = new PrintWriter(sock.getOutputStream(),true);
+            PrintWriter out = new PrintWriter(appSock.getOutputStream(),true);
 
             out.println(s.toString());
+
+            System.out.println("Send successfully!");
 
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -65,12 +71,12 @@ public class TCPServer {
             System.out.println("PKG1 Server started");
             System.out.println("Waiting for PKG2 connection ...");
 
-            Socket sock = server.accept();
+            Socket clientSock = clientServer.accept();
 
-            System.out.println("connected from " + sock.getRemoteSocketAddress()); //connect socket
+            System.out.println("connected from " + clientSock.getRemoteSocketAddress()); //connect socket
 
-            BufferedReader in = new BufferedReader(new InputStreamReader(sock.getInputStream()));
-            PrintWriter out = new PrintWriter(sock.getOutputStream(),true);
+            BufferedReader in = new BufferedReader(new InputStreamReader(clientSock.getInputStream()));
+            PrintWriter out = new PrintWriter(clientSock.getOutputStream(),true);
 
             //Step 1 start
             BigInteger a1 = SM9Utils.genRandom(mCurve.random,mCurve.N);

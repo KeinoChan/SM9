@@ -124,6 +124,8 @@ public class Paillier {
      */
     public BigInteger Encryption(BigInteger m) {
         BigInteger r = new BigInteger(bitLength, new Random());
+
+        System.out.println("乱码：r in Paillier Encryption:"+r);
         return g.modPow(m, nsquare).multiply(r.modPow(n, nsquare)).mod(nsquare);
 
     }

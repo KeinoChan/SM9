@@ -11,17 +11,16 @@
       <change beforePath="$PROJECT_DIR$/../LoginApp/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LoginApp/.gradle/7.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/.gradle/7.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LoginApp/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LoginApp/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LoginApp/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LoginApp/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LoginApp/.idea/modules/app/LoginApp.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/.idea/modules/app/LoginApp.app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LoginApp/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LoginApp/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LoginApp/app/src/main/java/com/example/loginapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/app/src/main/java/com/example/loginapp/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LoginApp/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LoginApp/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LoginApp/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApp/app/src/main/java/com/example/loginapp/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/app/src/main/java/com/example/loginapp/LoginActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/SM9/Paillier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/SM9/Paillier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/SM9/TCPClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/SM9/TCPClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/SM9/TCPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/SM9/TCPServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/SM9/Paillier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/SM9/Paillier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/SM9/TCPClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/SM9/TCPClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/SM9/TCPServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/SM9/TCPServer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,15 +56,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "last_opened_file_path": "E:/Java/SM9/SM9-TCP",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "AndroidSdkUpdater"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;E:/Java/SM9/SM9-TCP&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSdkUpdater&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Onedrive\Java\SM9-TCP\src\main\SM9" />
@@ -86,35 +85,35 @@
       <recent name="SM9.EllipticCurve" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="JavaSocket.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaSocket.Main" />
-      <module name="SM9-TCP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.SM9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaSocket.Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaSocket.Server" />
-      <module name="SM9-TCP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.SM9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SocketServerTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="SM9-TCP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SocketClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.SocketClientTest" />
+      <module name="SM9-TCP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SocketServerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.SocketServerTest" />
       <module name="SM9-TCP" />
       <extension name="coverage">
         <pattern>
@@ -154,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SocketServerTest" />
         <item itemvalue="Application.TCPClient" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SocketClientTest" />
         <item itemvalue="Application.TCPServer" />
-        <item itemvalue="Application.JavaSocket.Main" />
-        <item itemvalue="Application.JavaSocket.Server" />
       </list>
     </recent_temporary>
   </component>
@@ -172,6 +171,17 @@
       <updated>1650530698107</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

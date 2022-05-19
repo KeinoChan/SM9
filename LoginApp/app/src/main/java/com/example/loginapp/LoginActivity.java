@@ -52,42 +52,25 @@ public class LoginActivity extends AppCompatActivity {
                         //startActivity(intent);
 
                         System.out.println("登录按钮This sentence is printed when the button is clicked");
-                        Socket client = null;
-                        Socket client1 = null;
-                        try{
-                            client = new Socket("192.168.1.109", 6666); // connect to server
-                            PrintWriter printwriter = new PrintWriter(client.getOutputStream(),true);
-
-                            printwriter.write(user); // write the message to output stream
-
-                            printwriter.flush();
-                            printwriter.close();
-
-                            // closing the connection
-                            client.close();
-
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                        }
 
                         try{
-                            Thread.sleep(20000);
+                            Socket client = new Socket("192.168.1.109", 6623); // connect to server
+                            System.out.println("连接成功");
+                            PrintWriter out = new PrintWriter(client.getOutputStream(),true);
 
-                            client1 = new Socket("192.168.1.109", 6666); // connect to server
-                            System.out.println("Connected to Server");
-                            BufferedReader in = new BufferedReader(new InputStreamReader(client1.getInputStream()));
+                            out.println(user);
+
+                            BufferedReader in = new BufferedReader(new InputStreamReader(client.getInputStream()));
                             String s1 = in.readLine();
                             String s = in.readLine();
                             String s2 = in.readLine();
                             System.out.println("the received Private Key s: "+s+s2);
                             txtView.setText(s+""+s2);
 
-                            client1.close();
+                            client.close();
                         } catch (UnknownHostException e) {
                             e.printStackTrace();
                         } catch (IOException e) {
-                            e.printStackTrace();
-                        } catch (InterruptedException e) {
                             e.printStackTrace();
                         }
 
