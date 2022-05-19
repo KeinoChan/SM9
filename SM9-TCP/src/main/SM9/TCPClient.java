@@ -24,8 +24,6 @@ public class TCPClient {
         Paillier paillier = new Paillier();
         BigInteger s2 = SM9Utils.genRandom(mCurve.random, mCurve.N); //generate s2
 
-        //System.out.println("乱码...N in Client:"+mCurve.N);
-
         Socket sock = new Socket("127.0.0.1", 6666);
         System.out.println("Connected");
         BufferedReader in = new BufferedReader(new InputStreamReader(sock.getInputStream()));
@@ -74,7 +72,6 @@ public class TCPClient {
         out.println(s2);
 
         sock.close();
-
 
     }
 

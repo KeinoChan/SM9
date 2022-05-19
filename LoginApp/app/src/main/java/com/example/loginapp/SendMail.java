@@ -23,7 +23,7 @@ public class SendMail {
 
         SendMail sender = new SendMail();
         Session session = sender.createTLSSession();
-        Message message = createTextMessage(session, username, to, "JavaMail邮件", "Your Vefification Code:"+Integer.toString(rnd));
+        Message message = createTextMessage(session, username, to, "验证邮件", "Your Vefification Code:"+Integer.toString(rnd));
         Transport.send(message);
     }
 

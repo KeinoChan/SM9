@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -21,7 +22,7 @@ public class LoginActivity extends AppCompatActivity {
 
     EditText username,password;
     Button btnlogin;
-    TextView txtView;
+    TextView txtView,introView;
     DBHelper DB;
 
     @Override
@@ -33,6 +34,8 @@ public class LoginActivity extends AppCompatActivity {
         password = (EditText) findViewById(R.id.password1);
         btnlogin = (Button) findViewById(R.id.btnsignin1);
         txtView = (TextView)findViewById(R.id.showkey);
+        introView = (TextView)findViewById(R.id.intro);
+
         DB = new DBHelper(this);
 
         btnlogin.setOnClickListener(new View.OnClickListener() {
@@ -61,11 +64,12 @@ public class LoginActivity extends AppCompatActivity {
                             out.println(user);
 
                             BufferedReader in = new BufferedReader(new InputStreamReader(client.getInputStream()));
-                            String s1 = in.readLine();
                             String s = in.readLine();
+                            String s1 = in.readLine();
                             String s2 = in.readLine();
-                            System.out.println("the received Private Key s: "+s+s2);
-                            txtView.setText(s+""+s2);
+                            System.out.println("the received Private Key s: "+s1+s2);
+                            introView.setText("Your SM9 Private key is as below:");
+                            txtView.setText(s1+""+s2);
 
                             client.close();
                         } catch (UnknownHostException e) {

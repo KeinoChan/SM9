@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:hint="User Name" />
+        android:hint="Email Address" />
 
     <EditText
         android:id="@+id/password1"
@@ -23,21 +23,27 @@
         android:layout_below="@+id/username1"/>
 
     <TextView
-        android:id="@+id/showkey"
+        android:id="@+id/intro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnsignin1"
-        android:hint="4F35DB5B 487E3919 691F08DC 6E5C7E43 B3D0733E 2FAC209D FF484600 7E8606C3
-91335126 A875411F 8829FD6C 956BF9A9 3AE51B44 8C608D6A 538E3BEF 73C61D56"
-        android:layout_marginTop="50dp" />
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/showkey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/intro"
+        android:layout_marginTop="10dp" />
 
 
     <Button
         android:id="@+id/btnsignin1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sign in"
+        android:layout_below="@+id/password1"
         android:layout_marginTop="50dp"
-        android:layout_below="@+id/password1"/>
+        android:backgroundTint="@color/teal_200"
+        android:text="Sign in" />
 
 </RelativeLayout>

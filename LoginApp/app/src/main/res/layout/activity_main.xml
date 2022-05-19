@@ -44,8 +44,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/repassword"
         android:layout_marginTop="50dp"
+        android:backgroundTint="@color/teal_200"
         android:text="Get the Code"
-        />
+         />
 
     <Button
         android:id="@+id/btnsignup"
@@ -53,15 +54,17 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/verifybtn"
         android:layout_marginTop="50dp"
+        android:backgroundTint="@color/teal_200"
         android:text="Register" />
 
     <Button
         android:id="@+id/btnsignin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Existing user, Go to Sign in page"
+        android:layout_below="@+id/btnsignup"
         android:layout_marginTop="50dp"
-        android:layout_below="@+id/btnsignup"/>
+        android:backgroundTint="@color/teal_200"
+        android:text="Existing user, Go to Sign in page" />
 
 
 </RelativeLayout>
