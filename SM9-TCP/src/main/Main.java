@@ -6,8 +6,6 @@ import main.SM9.EllipticCurve.SM9Curve;
 import main.SM9.Utils.SM9Utils;
 
 import java.math.BigInteger;
-import java.util.Currency;
-
 
 public class Main {
 
@@ -43,7 +41,7 @@ public class Main {
         MasterPublicKey pubkey = new MasterPublicKey(ppubs);
 
         //此处应显示签名
-        String msg = "Chinese";
+        String msg = "Chinese SM9 Standard";
         ResultSignature signature = sm9.sign(pubkey,s,msg.getBytes());
 
         if(sm9.verify(pubkey,name,msg.getBytes(),signature))

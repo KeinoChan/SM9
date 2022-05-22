@@ -64,12 +64,11 @@ public class LoginActivity extends AppCompatActivity {
                             out.println(user);
 
                             BufferedReader in = new BufferedReader(new InputStreamReader(client.getInputStream()));
-                            String s = in.readLine();
                             String s1 = in.readLine();
                             String s2 = in.readLine();
                             System.out.println("the received Private Key s: "+s1+s2);
                             introView.setText("Your SM9 Private key is as below:");
-                            txtView.setText(s1+""+s2);
+                            txtView.setText(s1+" "+s2);
 
                             client.close();
                         } catch (UnknownHostException e) {

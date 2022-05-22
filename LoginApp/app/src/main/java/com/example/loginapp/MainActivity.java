@@ -60,7 +60,6 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("乱码Send email successfully");
                     Toast.makeText(MainActivity.this, "Email send successfully, please check your mailbox", Toast.LENGTH_SHORT).show();
 
-
                 }
             }
         });

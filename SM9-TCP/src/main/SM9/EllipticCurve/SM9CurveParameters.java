@@ -6,6 +6,8 @@ import it.unisa.dia.gas.plaf.jpbc.pairing.parameters.PropertiesParameters;
 import java.math.BigInteger;
 
 /**
+ * used for generating SM9Curve
+ *
  * 256-bits BN curve parameters, whose values are specified in standard.
  * The JPBC library evoked for the bilinear mapping(Type F)
  *  q:

@@ -5,8 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dde1334-0e9d-48aa-9806-f8ec493dcdc5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../LoginApp/.gradle/7.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/.gradle/7.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApp/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApp/.gradle/7.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/.gradle/7.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApp/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApp/.gradle/7.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/.gradle/7.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApp/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApp/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApp/app/src/main/java/com/example/loginapp/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/app/src/main/java/com/example/loginapp/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApp/app/src/main/java/com/example/loginapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/app/src/main/java/com/example/loginapp/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginApp/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginApp/app/src/main/res/layout/activity_login.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/SM9/TCPClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/SM9/TCPClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/SM9/ClientHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/SM9/EllipticCurve/SM9CurveParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/SM9/EllipticCurve/SM9CurveParameters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/SM9/PrivateKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/SM9/PrivateKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/SM9/EllipticCurve/SM9CurveParameters.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/SM9/EllipticCurve/SM9CurveParameters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/SM9/PrivateKey.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/SM9/PrivateKey.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/SM9/TCPClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/SM9/TCPClient.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,15 +59,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;last_opened_file_path&quot;: &quot;E:/Java/SM9/SM9-TCP&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSdkUpdater&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "E:/Java/SM9/SM9-TCP",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Onedrive\Java\SM9-TCP\src\main\SM9" />

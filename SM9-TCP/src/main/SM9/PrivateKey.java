@@ -42,7 +42,7 @@ public class PrivateKey {
 
     @Override
     public String toString() {
-        return SM9Utils.NEW_LINE+SM9Utils.toHexString(SM9Utils.G1ElementToBytes(d));
+        return SM9Utils.toHexString(SM9Utils.G1ElementToBytes(d));
     }
 
 }
